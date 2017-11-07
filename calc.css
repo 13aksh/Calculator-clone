@@ -1,0 +1,51 @@
+body{
+  margin:0px;
+}
+.calContainer{
+  width: 240px;
+  background-color: #eee;
+  padding: 10px;
+}
+.displayScreen{
+  width: 100%;
+  background-color: #ddd;
+  height: 100px;
+  overflow: auto;
+}
+.screen{
+  margin: 5px;
+  height: 90px;
+  font-size: 64px;
+  background-color: #fff;
+  text-align: right;
+  line-height: 110px;
+  font-family: serif;
+  font-weight: lighter;
+  padding-right: 5px;
+}
+.calButtons{
+  width:100%;
+  display: block;
+  background-color: #ddd;
+  margin-top: 10px;
+  font-size: 0; /* To remove the unwanted space between the inline-blocks in the children elements. */
+}
+.Button{
+  width: 50px;
+  display: inline-block;
+  background-color: #fff;
+  margin: 5px;
+  font-family: sans-serif;
+  font-size: 24px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.Button:hover{
+  background-color: #8c8cb0;
+  -webkit-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
+}

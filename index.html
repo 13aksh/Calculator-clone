@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calc.css" />
+  </head>
+  <body>
+    <div class="calContainer">
+      <div class="displayScreen">
+        <div id="screen" class="screen"></div>
+      </div>
+      <div class="calButtons">
+        <div class="Button" onclick="submitValue(1)">1</div>
+        <div class="Button" onclick="submitValue(2)">2</div>
+        <div class="Button" onclick="submitValue(3)">3</div>
+        <div class="Button" onclick="submitValue('+')">+</div>
+
+        <div class="Button" onclick="submitValue(4)">4</div>
+        <div class="Button" onclick="submitValue(5)">5</div>
+        <div class="Button" onclick="submitValue(6)">6</div>
+        <div class="Button" onclick="submitValue('-')">-</div>
+
+        <div class="Button" onclick="submitValue(7)">7</div>
+        <div class="Button" onclick="submitValue(8)">8</div>
+        <div class="Button" onclick="submitValue(9)">9</div>
+        <div class="Button" onclick="submitValue('/')">/</div>
+
+        <div class="Button" onclick="submitValue('.')">.</div>
+        <div class="Button" onclick="submitValue(0)">0</div>
+        <div class="Button" onclick="submitValue('=')">=</div>
+        <div class="Button" onclick="submitValue('x')">x</div>
+      </div>
+    </div>
+
+    <script src="calc.js" type="text/javascript"></script>
+  </body>
+</html>
