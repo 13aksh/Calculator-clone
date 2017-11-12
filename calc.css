@@ -10,7 +10,7 @@ body{
   width: 100%;
   background-color: #ddd;
   height: 100px;
-  overflow: auto;
+  overflow: auto; /* To make this the parent element to prevent margin-top collision. */
 }
 .screen{
   margin: 5px;
@@ -22,6 +22,8 @@ body{
   font-family: serif;
   font-weight: lighter;
   padding-right: 5px;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 .calButtons{
   width:100%;
